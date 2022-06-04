@@ -1,0 +1,14 @@
+body{
+    background: url("@img/screenshot.jpg") 0 0 no-repeat;
+    background-color: aquamarine;
+    span{
+        color: rebeccapurple;
+    }
+    
+
+    @media (max-width: 768px){
+        span{
+            font-size: 20px;
+        }
+    }
+}
