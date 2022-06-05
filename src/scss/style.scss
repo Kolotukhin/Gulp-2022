@@ -1,5 +1,9 @@
+@import "fonts";
+
 body{
-    background: url("@img/screenshot.jpg") 0 0 no-repeat;
+    //background: url("@img/screenshot.jpg") 0 0 no-repeat;
+    font-family: CormorantUpright;
+    font-size: 50px;
     background-color: aquamarine;
     span{
         color: rebeccapurple;

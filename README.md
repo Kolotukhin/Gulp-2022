@@ -1,4 +1,15 @@
-#Gulp-2022 steps#
+#Command for launching in developer mode#
+ - npm run dev
+
+-------------------------------------------------------
+
+#Command for launching in prodaction mode#
+- npm run build
+- Command for svg: npm run svgSprive
+- Command deploy zip: npm run zip
+-------------------------------------------------------
+
+#customization Gulp-2022 steps#
 Install Node.Js и Git 
 
 Git bash:
@@ -56,3 +67,17 @@ npm i -D swiper
 npm i -D gulp-webp gulp-imagemin
 
 npm i -D gulp-newer
+
+npm i -D gulp-fonter gulp-ttf2woff2
+
+npm i -D gulp-svg-sprite
+
+npm i -D gulp-if
+
+npm i -D gulp-zip
+
+npm i -d vinyl-ftp gulp-util
+
+
+
+

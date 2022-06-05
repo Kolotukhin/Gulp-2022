@@ -1,7 +1,9 @@
 gitignore/
 dist/
 src/img/
+src/fonts/
 node_modules/
+package-lock.json
 
 # JPEG
 *.jpg

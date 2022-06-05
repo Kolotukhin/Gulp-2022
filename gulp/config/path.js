@@ -11,6 +11,7 @@ export const path = {
         css: `${buildFolder}/css/`,
         html: `${buildFolder}/`,
         images: `${buildFolder}/img/`,
+        fonts: `${buildFolder}/fonts/`,
         files: `${buildFolder}/files/`
     },
     src: {
@@ -21,6 +22,7 @@ export const path = {
         //html: `${srcFolder}/*.pug`, //for pug 
         html: `${srcFolder}/*.html`, //for html
         files: `${srcFolder}/files/**/*.*`,
+        svgicons: `${srcFolder}/svgicons/*.svg`
     },
     watch: {
         js: `${srcFolder}/js/**/*.js`,
@@ -28,11 +30,12 @@ export const path = {
         //html: `${srcFolder}/**/*.pug`, //for pug
         html: `${srcFolder}/**/*.html`, //for html
         images: `${srcFolder}/img/**/*.{jpg,jpeg,png,svg,ico,gif,webp}`,
-        files: `${srcFolder}/files/**/*.*`
+        files: `${srcFolder}/files/**/*.*`,
+        svgicons: `${srcFolder}/svgicons/**/*.svg`
     },
     clean: `${buildFolder}`,
     buildFolder: buildFolder,
     srcFolder: srcFolder,
     rootFolder: rootFolder,
-    ftp: ``
+    ftp: `change_name_folder_in_path_js`
 }
